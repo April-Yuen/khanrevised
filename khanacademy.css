@@ -1,0 +1,107 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav ul li {
+  float: left;
+  width: 15%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+  border-bottom: 1px solid #adb5ba;
+  height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header li{
+  list-style: none;
+  color: #0964ed;
+}
+
+header img{
+  width: 15%;
+  margin-left: 162%;
+  padding-bottom: 10%;
+  height: 45px;
+}
+
+li input {
+  color: #0964ed;
+}
+
+header li:nth-child(n+5){
+  width: 8%;
+  float: right;
+}
+
+header li:nth-child(4){
+  font-weight: 600;
+  color: #54557d;
+  font-size: 20px;
+  width: 15%;
+  margin-left: 10%;
+}
+
+header li:nth-child(-n+2){
+  float: left;
+  width: 8%;
+}
+
+main img{
+  float: left;
+  width: 50%;
+}
+
+h1{
+  font-family: 'PT Serif', serif;
+  font-size: 60px;
+}
+
+p{
+  font-family: 'Murecho', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+main button{
+  width: 85px;
+  height: 40px;
+  color: white;
+  background: #0964ed;
+  border-radius: 4px;
+  border: 1px solid #0964ed;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
